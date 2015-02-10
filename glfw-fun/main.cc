@@ -1,7 +1,7 @@
 #include <iostream>
 #include <stdlib.h>
 #include <stdio.h>
-#include <GLFW\glfw3.h>
+#include <GLFW/glfw3.h>
 
 static void error_callback(int error, const char* description) {
   fputs(description, stderr);
